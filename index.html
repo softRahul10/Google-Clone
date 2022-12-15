@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.Google.com - softrahul git Hub project</title>
-    <!-- add favicon or tab logo of page -->
-    <link rel="icon" href="Multimedia/download.png" sizes="40x40">
-    <!-- internal css -->
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>www.Google.com - softrahul git Hub project</title>
+        <!-- add favicon or tab logo of page -->
+        <link rel="icon" href="Multimedia/download.png" sizes="40x40">
+        <!-- internal css -->
+        <style>
         /* css reset */
         html {
             box-sizing: border-box;
@@ -173,71 +173,97 @@
         .left{
             width:40%;
         }
+        /* Special Message */
+        .special-msg{
+            height: 100vh;
+            background:#eee;
+            color:rgb(30, 30, 221);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            display: none;
+            padding: 4rem 2rem;
+        }
     </style>
-</head>
+    </head>
 
-<body>
-    <!-- Navigation Bar / Header of page -->
-    <header class="gl-header">
-            <div class="gl-nav">
-                <a href="">Gmail</a>
-                <a href=""> Images</a>
-                <div>
-                    <img src="Multimedia/apps_black_24dp.svg" alt="">
-                </div>
-                <div>
-                    <img src="Multimedia/account_circle_black_24dp.svg" alt="">
-                </div>
-            </div>
-    </header>
-
-    <!-- Main section of page -->
-    <main class="main-box">
-        <section class="search-box">
-            
-            <div class="search-component logo">
-                <img src="Multimedia/googlelogo_color_272x92dp.png" alt="google-logo">
-            </div>
-            <div class="search-component search-bar">
-                <form action="" class="form">
-                    <div class="search-input">
-
-                        <input type="search" name="" id="search-area" class="search">
-                        <img src="Multimedia/search_black_24dp.svg" alt="serach-logo" class="icons search">
-                        <img src="Multimedia/mic_black_24dp.svg" alt="mic-logo" class="icons mic">
+    <body>
+        <section class="content">
+            <!-- Navigation Bar / Header of page -->
+            <header class="gl-header">
+                <div class="gl-nav">
+                    <a href="">Gmail</a>
+                    <a href=""> Images</a>
+                    <div>
+                        <img src="Multimedia/apps_black_24dp.svg" alt="">
                     </div>
-                    <div class="search-btn">
-                        <button class="search-btn-group">
-                            Google Search
-                        </button>
-                        <button class="search-btn-group">
-                            I'm feeling Lucky
-                        </button>
+                    <div>
+                        <img src="Multimedia/account_circle_black_24dp.svg"
+                            alt="">
                     </div>
+                </div>
+            </header>
 
-                </form>
+            <!-- Main section of page -->
+            <main class="main-box">
+                <section class="search-box">
 
-            </div>
+                    <div class="search-component logo">
+                        <img src="Multimedia/googlelogo_color_272x92dp.png"
+                            alt="google-logo">
+                    </div>
+                    <div class="search-component search-bar">
+                        <form action="" class="form">
+                            <div class="search-input">
+
+                                <input type="search" name="" id="search-area"
+                                    class="search">
+                                <img src="Multimedia/search_black_24dp.svg"
+                                    alt="serach-logo" class="icons search">
+                                <img src="Multimedia/mic_black_24dp.svg"
+                                    alt="mic-logo" class="icons mic">
+                            </div>
+                            <div class="search-btn">
+                                <button class="search-btn-group">
+                                    Google Search
+                                </button>
+                                <button class="search-btn-group">
+                                    I'm feeling Lucky
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </section>
+            </main>
+
+            <!--  Footer of page -->
+            <footer class="gl-footer">
+                <div class="left">
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">About</a>
+                    <a href="">How Search Works</a>
+                </div>
+                <div class="right">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </footer>
         </section>
-    </main>
+        <!-- Desktop Mode  -->
+        <div class="special-msg">
+            <h2>This website only Works in Desktop Mode </h2>
+            <h4>Switch to Desktop Mode </h4>
 
-    <!--  Footer of page -->
-    <footer class="gl-footer">
-        <div class="left">
-        <a href="">Advertising</a>
-        <a href="">Business</a>
-        <a href="">About</a>
-        <a href="">How Search Works</a>
         </div>
-        <div class="right">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
-        </div>
-    </footer>
+        <!-- Desktop Mode  -->
 
-    <!-- js file -->
-    <script src="mobile.js"></script>
-</body>
+        <!-- js file -->
+        <script src="mobile.js"></script>
+    </body>
 
 </html>
